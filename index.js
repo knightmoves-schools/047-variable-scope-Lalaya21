@@ -1,8 +1,8 @@
 let distanceInMiles = 100;
-let estimatedArrivalTime = function (){
+function estimatedArrivalTime() {
     let milesPerHour = 50;
-    distanceInMiles/milesPerHour;
+    return distanceInMiles / milesPerHour;
 }
-document.getElementById(result).innerHTML = estimatedArrivalTime ();
+document.getElementById(result).innerHTML = estimatedArrivalTime();
 
 
